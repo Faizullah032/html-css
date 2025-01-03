@@ -1,0 +1,118 @@
+* {
+margin:0px;
+padding:0px;
+box-sizing:border-box;
+}
+/* =============================================== */
+div {
+    
+    margin:1rem;
+    padding:3rem;
+}
+
+.main-container {
+    display:flex;
+    border:1px solid red;
+
+}
+/* ============================    side bar    ========================== */
+.sidebar {
+    width:25%;
+    border:1px solid red;
+}
+
+.side-div-one {
+    height:30%;
+    background-color:red;
+}
+
+.side-two {
+    background-color:black;  
+}
+
+.side-three {
+    background-color:green;
+}
+
+/* =============================   main   ================================ */
+.main {
+    width:75%;
+    padding:0;
+    margin:0;
+}
+
+
+.first-row {
+    display:flex;
+    margin:0;
+    border:none;
+    padding:0;
+}
+
+.first-row-div-one {
+    width:30%;
+}
+
+.first-row-div-one {
+    background-color:violet;
+}
+
+.row-one-two {
+    background-color:indigo;  
+}
+
+.row-one-three {
+    background-color:brown;   
+}
+
+.row-two {
+    background-color:pink;
+    }
+
+
+.row-three {
+    border:1px solid red;
+}
+
+.row-three-second-first {
+    width:30%;
+}
+
+.row-three-second {
+    display:flex;
+    margin:0;
+    border:none;
+    padding:0;
+}
+
+.row-three-forth {
+    display:flex;
+    margin:0;
+    border:none;
+    padding:0;
+       
+}
+
+.row-three-forth-first {
+    width:50%;
+}
+
+.row-three-first {
+    background-color:green;
+}
+
+.row-three-second-first {
+    background-color:gray;   
+}
+
+.row-three-third {
+    background-color:red; 
+}
+
+.row-three-forth-first {
+    background-color:blue; 
+}
+
+.forth-last {
+    background-color:yellow;
+}

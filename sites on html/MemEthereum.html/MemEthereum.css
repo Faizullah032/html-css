@@ -1,0 +1,636 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Roboto;
+}
+/*-----------------------------header-------------------------- */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-style: normal;
+  font-weight: 400;
+  padding: 1rem 2rem;
+}
+
+nav .menu-btn {
+  display: none;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0rem 1rem;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.drop-down {
+  color: white;
+  font-size: 36px;
+}
+.header-button {
+  background-color: #fead3d;
+
+  padding: 1rem 3rem;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+.header-button:hover {
+  background-color: white;
+  color: black;
+}
+.header-btn {
+  text-decoration: none;
+  color: #333333;
+  font-size: 1.2rem;
+}
+
+.header-button {
+  color: #fff;
+  background-image: -webkit-linear-gradient(
+    90deg,
+    #fead3d 50%,
+    transparent 50%
+  );
+  background-image: linear-gradient(90deg, #fead3d 50%, transparent 50%);
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  -webkit-transition: background 500ms ease-in-out;
+  transition: background 500ms ease-in-out;
+}
+.header-button:hover {
+  background-position: 100%;
+  color: #fead3d;
+}
+
+/* ---------------------------------------------------Hero section-------------------------*/
+.hero-section {
+  background-image: url("Group 2563.png");
+  background-color: #011c42;
+  background-repeat: none;
+  background-size: cover;
+  margin-top: -7.5rem;
+  padding: 15rem 6em;
+}
+
+.hero-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.hero-heading {
+  color: #fff;
+  font-size: 3.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 4.125rem;
+}
+
+.hero-para {
+  color: #fff;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75rem;
+}
+
+.hero-btn {
+  background-color: #fead3d;
+  padding: 1rem 3rem;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  margin: 1.5rem auto;
+}
+
+.hero-btn:hover {
+  background-color: white;
+}
+
+.hero-btn-second {
+  border: 1px solid white;
+  margin: 1.5rem 1rem;
+  border-radius: 50px;
+  background-color: transparent !important;
+  color: white !important;
+}
+
+.hero-btn-second .header-btn {
+  color: white;
+}
+.hero-btn-second:hover .header-btn {
+  color: black;
+}
+
+.hero-btn-second:hover {
+  background-color: #fead3d !important;
+  border: 1px solid #fead3d;
+  color: black;
+}
+
+.hero-btn {
+  color: #fff;
+  background-image: -webkit-linear-gradient(
+    90deg,
+    #fead3d 50%,
+    transparent 50%
+  );
+  background-image: linear-gradient(90deg, #fead3d 50%, transparent 50%);
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  -webkit-transition: background 500ms ease-in-out;
+  transition: background 500ms ease-in-out;
+}
+.hero-btn:hover {
+  background-position: 100%;
+  color: #fead3d;
+}
+
+.hero-btn-second {
+  color: #fff;
+  background-image: -webkit-linear-gradient(
+    90deg,
+    transparent 50%,
+    transparent 50%
+  );
+  background-image: linear-gradient(90deg, transparent 50%, transparent 50%);
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  -webkit-transition: background 500ms ease-in-out;
+  transition: background 500ms ease-in-out;
+}
+.hero-btn-second:hover {
+  background-position: 100%;
+  color: #fead3d;
+}
+/* ---------------------------------------------------About us section-------------------------*/
+
+.about-section {
+  padding-top: 10rem;
+  background-image: url("Group 10.png");
+  background-color: #011c42;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 15rem;
+}
+
+.about-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  margin: auto;
+  padding: 0rem 6rem;
+}
+
+.hero-img {
+  display: flex;
+  align-items: center;
+}
+
+/* ---------------------------------------------------our mission section-------------------------*/
+
+.our-mission-div {
+  width: 200%;
+}
+
+.mission-section {
+  background-image: url("Group 13.png");
+  background-color: #011c42;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mission-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 4rem 6rem;
+}
+
+/* ---------------------------------------------------contact section-------------------------*/
+.contact-section {
+  padding: 10rem 6rem;
+  background-image: url("Group 14.png");
+  background-color: #011c42;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-image: url("Mask group.png");
+  padding: 3rem 0rem;
+  background-repeat: none;
+  background-size: cover;
+}
+
+.hero-btn .contact-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* ---------------------------------------------------tokenomics us section-------------------------*/
+
+.tokenomics-section {
+  padding: 8rem 6rem;
+  background-image: url("Group 16.png");
+  background-color: #011c42;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tokenomics-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.hero-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tokenomics-one-div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem 3rem;
+  margin: 1rem auto;
+  border-radius: 20px;
+  background: linear-gradient(
+    to right,
+    #c7189b 0%,
+    #c7189b 5%,
+    rgba(255, 255, 255, 0.623) 5%,
+    rgba(255, 255, 255, 0.089) 5%
+  );
+}
+
+.tokenomics-one-div:hover {
+  background: linear-gradient(
+    to right,
+    #c7189b 0%,
+    #c7189b 50%,
+    rgba(255, 255, 255, 0.623) 5%,
+    rgba(255, 255, 255, 0.089) 5%
+  );
+}
+
+.two {
+  background: linear-gradient(
+    to right,
+    #2fdf4e 0%,
+    #2fdf4e 5%,
+    rgba(255, 255, 255, 0.623) 5%,
+    rgba(255, 255, 255, 0.089) 5%
+  );
+}
+
+.two:hover {
+  background: linear-gradient(
+    to right,
+    #2fdf4e 0%,
+    #2fdf4e 20%,
+    rgba(255, 255, 255, 0.623) 5%,
+    rgba(255, 255, 255, 0.089) 5%
+  );
+}
+
+.three {
+  background: linear-gradient(
+    to right,
+    #b1dd3f 0%,
+    #b1dd3f 5%,
+    rgba(255, 255, 255, 0.623) 5%,
+    rgba(255, 255, 255, 0.089) 5%
+  );
+}
+.three:hover {
+  background: linear-gradient(
+    to right,
+    #b1dd3f 0%,
+    #b1dd3f 20%,
+    rgba(255, 255, 255, 0.623) 5%,
+    rgba(255, 255, 255, 0.089) 5%
+  );
+}
+
+.four {
+  background: linear-gradient(
+    to right,
+    #5669e6 0%,
+    #5669e6 5%,
+    rgba(255, 255, 255, 0.623) 5%,
+    rgba(255, 255, 255, 0.089) 5%
+  );
+}
+
+.four:hover {
+  background: linear-gradient(
+    to right,
+    #5669e6 0%,
+    #5669e6 8%,
+    rgba(255, 255, 255, 0.623) 5%,
+    rgba(255, 255, 255, 0.089) 5%
+  );
+  transition: all 2s;
+}
+
+.five {
+  background: linear-gradient(
+    to right,
+    #4bbbf2 0%,
+    #4bbbf2 5%,
+    rgba(255, 255, 255, 0.623) 5%,
+    rgba(255, 255, 255, 0.089) 5%
+  );
+}
+
+.five:hover {
+  background: linear-gradient(
+    to right,
+    #4bbbf2 0%,
+    #4bbbf2 6%,
+    rgba(255, 255, 255, 0.623) 5%,
+    rgba(255, 255, 255, 0.089) 5%
+  );
+}
+
+.tokenomics-heading {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.tokenomics-para {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.548);
+  padding-top: 0.2rem;
+}
+
+.fifty-percent {
+  padding-right: 1rem;
+  font: size 1.5rem;
+  color: #c7189b;
+  font-weight: 600;
+}
+
+.tokenomics-one-div:hover .fifty-percent span {
+  color: white !important;
+}
+
+/* ---------------------------------------------------services section-------------------------*/
+.service-section {
+  background-image: url("Group 16.png");
+  background-color: #011c42;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10rem 6rem;
+}
+
+.service-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+  padding: 0rem 15rem;
+}
+
+.img-box-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: flex-start;
+  margin: 0rem auto;
+  padding: 2rem 0rem;
+}
+
+.service-img {
+  background-color: rgba(255, 255, 255, 0.041);
+  border-radius: 50px;
+  padding: 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.103);
+  box-shadow: inset rgba(255, 255, 255, 0.623);
+}
+
+.img-box-one {
+  padding: 0.5rem;
+  border-radius: 10px;
+  margin: 1rem;
+}
+
+.img-box-one:hover {
+  background-color: rgba(255, 255, 255, 0.089);
+}
+
+.box-heading {
+  color: white;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+.box-para {
+  color: white;
+  font-size: 1rem;
+  padding: 0.5rem;
+  line-height: 1.6rem;
+}
+
+/* ---------------------------------------------------roadmap section-------------------------*/
+
+.roadmap-section {
+  padding: 6rem 6rem;
+  background-image: url("Group 17 (1).png");
+  background-color: #011c42;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.roadmap-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+  padding: 3rem 0rem;
+}
+.roadmap-second-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  margin: auto;
+}
+
+.roadmap-heading {
+  color: white;
+  font-size: 1.5rem;
+}
+hr {
+  width: 60%;
+  margin: 1rem 0rem;
+}
+
+.roadmap-first-div {
+  border: 1px solid white;
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+  margin: 4rem;
+  margin-top: 8rem;
+}
+.roadmap-first-div:hover {
+  border: 1px solid #feac3d;
+  background-color: rgba(255, 255, 255, 0.089);
+}
+
+.roadmap-second-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+}
+
+.roadmap-second-div .hero-img:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+}
+
+.second {
+  width: 80%;
+  margin-left: 2.5rem;
+  margin-top: 4rem;
+}
+
+.third {
+  margin-left: 6rem;
+  margin-top: 8rem;
+}
+
+.forth {
+  width: 80%;
+  margin-left: 2.5rem;
+  margin-top: 5.2em;
+}
+
+/* ---------------------------------------------------faq section-------------------------*/
+
+.faq-section {
+  padding: 0rem 6rem;
+  background-image: url("faq bg fin (1).png");
+  background-color: #011c42;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.faq-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  margin: auto;
+  gap: 2rem;
+}
+
+.tokenomics-one-div-faq {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1.5rem;
+  padding-right: 3rem;
+  margin: 1rem auto;
+  border: 1px solid rgba(255, 255, 255, 0.164);
+  border-radius: 20px;
+  background: linear-gradient(
+    to left,
+    #feac3d 0%,
+    #feac3d 12%,
+    transparent -5%,
+    transparent -5%
+  );
+}
+
+.plus-sign {
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: right;
+  text-decoration: none;
+}
+.plus-sign a {
+  text-decoration: none;
+  color: black;
+}
+
+.faq:hover {
+  font-size: 1.5rem;
+  color: #feac3d;
+}
+
+/* ---------------------------------------------------faq section-------------------------*/
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5rem;
+  border-top: 1px solid white;
+  padding: 1rem 0rem;
+}
+
+.footer-para {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.footer-icon {
+  color: white;
+  font-size: 2rem;
+}
+
+.footericon:hover {
+  color: #feac3d;
+  font-size: 2rem;
+}
+
+.footericon {
+  margin: 0rem 0.5rem;
+  cursor: pointer;
+}

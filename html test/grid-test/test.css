@@ -1,0 +1,257 @@
+* {
+margin:0px;
+padding:0px;
+box-sizing:border-box;
+}
+/* =============================================== */
+div {
+    
+    margin:1rem;
+    padding:2rem;
+}
+
+.display-flex {
+    font-size:45px;
+    color:crimson;
+    text-align:center;
+    margin:20px;
+}
+
+.main-container {
+    display:flex;
+    border:1px solid red;
+
+}
+/* ============================    side bar    ========================== */
+.sidebar {
+    flex-grow:0.7;
+    border:1px solid red;
+}
+
+.side-div-one {
+    height:30%;
+    background-color:red;
+    widht:100%;
+ 
+}
+
+.side-two {
+    background-color:black;  
+}
+
+.side-three {
+    background-color:green;
+}
+
+/* =============================   main   ================================ */
+.main {
+  flex-grow:3;
+    padding:0;
+    margin:0;
+}
+
+
+.first-row {
+    display:flex;
+    margin:0;
+    border:none;
+    padding:0;
+}
+
+.first-row-div-one {
+    flex-grow:1;
+}
+
+.first-row-div-one {
+    background-color:violet;
+}
+
+.row-one-two {
+    background-color:indigo;  
+}
+
+.row-one-three {
+    background-color:brown;   
+}
+
+.row-two {
+    background-color:pink;
+    }
+
+
+.row-three {
+    border:1px solid red;
+}
+
+.row-three-second-first {
+    flex-grow:1;
+}
+
+.row-three-second {
+    display:flex;
+    margin:0;
+    border:none;
+    padding:0;
+}
+
+.row-three-forth {
+    display:flex;
+    margin:0;
+    border:none;
+    padding:0;
+       
+}
+
+.row-three-forth-first {
+    width:50%;
+}
+
+.row-three-first {
+    background-color:green;
+}
+
+.row-three-second-first {
+    background-color:gray;   
+}
+
+.row-three-third {
+    background-color:red; 
+}
+
+.row-three-forth-first {
+    background-color:blue; 
+}
+
+.forth-last {
+    background-color:yellow;
+}
+
+
+
+/* ===========================================  Display  Grid  ============================== */
+
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    }
+    /* =============================================== */
+    div {
+        
+        margin:1rem;
+        padding:2rem;
+    }
+    
+    .display-grid {
+        font-size:45px;
+        color:rgb(220, 20, 177);
+        text-align:center;
+        margin:100px;
+    }
+    
+    .grid-main-container {
+        display:grid;
+        grid-template-columns:1fr 3fr;
+        border:1px solid red;
+    
+    }
+    /* ============================    side bar    ========================== */
+    .grid-sidebar { 
+        border:1px solid red;
+        display:grid;
+        grid-template-rows:1fr 1fr 1fr; 
+    }
+    
+ 
+    /* =============================   main   ================================ */
+    .grid-main {  
+        padding:0;
+        margin:0;
+    }
+    
+    
+    .grid-first-row {
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr;
+        margin:0;
+        border:none;
+        padding:0;
+    }
+    
+
+    
+    .grid-row-three-second {
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr;
+        margin:0;
+        border:none;
+        padding:0;
+    }
+    
+    .grid-row-three-forth {
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        margin:0;
+        border:none;
+        padding:0;
+           
+    }
+
+
+
+    .grid-side-div-one {
+        background-color:red;
+      }
+
+        
+    .grid-side-two {
+        background-color:black;  
+    }
+    
+    .grid-side-three {
+        background-color:green;
+    }
+    
+
+
+    .grid-first-row-div-one {
+        background-color:violet;
+    }
+    
+    .grid-row-one-two {
+        background-color:indigo;  
+    }
+    
+    .grid-row-one-three {
+        background-color:brown;   
+    }
+    
+    .grid-row-two {
+        background-color:pink;
+        }
+    
+    
+    .grid-row-three {
+        border:1px solid red;
+    }
+    
+    
+    .grid-row-three-first {
+        background-color:green;
+    }
+    
+    .grid-row-three-second-first {
+        background-color:gray;   
+    }
+    
+    .grid-row-three-third {
+        background-color:red; 
+    }
+    
+    .grid-row-three-forth-first {
+        background-color:blue; 
+    }
+    
+    .grid-forth-last {
+        background-color:yellow;
+    }

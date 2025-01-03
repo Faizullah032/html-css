@@ -1,0 +1,387 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* body {
+  width: 1300px;
+  margin: 0px auto;
+} */
+
+/********************************* main header settings************************** */
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 75%;
+  margin: 1rem auto;
+}
+
+a {
+  list-style: none;
+  font-size: 1.25rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.main-menu {
+  display: flex !important;
+  gap: 3.125rem;
+  flex-direction: row;
+}
+
+.header-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+button {
+  padding: 0.9rem 1.75rem;
+  color: white;
+  background-color: #c00a30;
+  font-size: 1.25rem;
+  cursor: pointer;
+  border-radius: 0.625rem;
+  border: none;
+}
+
+.header-socialicon {
+  font-size: 1.875rem;
+  color: #c00a30;
+  background-color: #e0e4eb;
+  border-radius: 50%;
+  padding: 0.6rem;
+  cursor: pointer;
+}
+
+/*********************** hero sections css **************************************/
+
+.hero-section {
+  background: linear-gradient(180deg, #0026682a 0%, rgba(0, 39, 104, 0) 100%);
+}
+.hero-divs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  padding: 6.25rem 0rem;
+  gap: 1.8rem;
+  width: 75%;
+  margin: 0rem auto;
+}
+
+.hero-heading {
+  font-size: 3.25rem;
+  font-weight: 700;
+  line-height: 4.56rem;
+}
+
+.hero-para {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #666;
+  padding: 1.25rem 0rem;
+  line-height: 1.68rem;
+}
+
+/******************************** about us section settings*********************** */
+
+.about-line {
+  background-color: red;
+  width: 20%;
+  height: 0.312rem;
+  border: none;
+}
+
+/* ********************************Services section seting************************** */
+
+.service-section {
+  background: #d9d9d934;
+  padding: 3.125rem 0rem;
+}
+
+.service-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.service-btn {
+  background-color: #e0e4eb;
+  color: #002768;
+  padding: 1.25rem 2.18rem;
+}
+
+.service-btn:hover {
+  background-color: #002768;
+  color: white;
+}
+
+.service-para {
+  font-size: 1rem;
+  line-height: 1.6875rem;
+  color: #666;
+}
+
+.service-heading {
+  font-size: 2.625rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+
+.service-headings {
+  padding: 0.625rem 0rem;
+  color: #002768;
+  size: 1.5625rem;
+}
+
+.service-line {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  margin: 0rem auto;
+  background-color: red;
+  height: 0.312rem;
+  border: none;
+  margin-bottom: 1.25rem;
+}
+
+.image-boxe {
+  border: 0.0625rem solid #00000017;
+  border-radius: 0.625rem;
+  padding: 1.875rem;
+  text-align: center;
+  background-color: white;
+}
+
+.image-boxe:hover {
+  border: 0.0625rem solid #002768;
+}
+
+.image-boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.875rem;
+  width: 75%;
+  margin: 0rem auto;
+  margin-bottom: 1.875rem;
+}
+/************************************why choose us**********************************/
+.about-img {
+  background-color: #f6f6f6;
+}
+.hero-headings {
+  font-size: 2.625rem;
+  font-weight: 700;
+  padding-bottom: 0.6rem;
+}
+
+.hero-img {
+  padding: 2.5rem;
+  border-radius: 1.25rem;
+}
+
+/* *************************************** certified-section***************************************/
+.certified-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center !important;
+  align-items: center;
+  gap: 1.25rem;
+  width: 75%;
+  margin: 0rem auto;
+}
+
+.certified-box {
+  border: none;
+}
+
+.certifie-btn {
+  background-color: transparent !important;
+  color: #c00a30 !important;
+  text-align: left !important;
+  padding: 1.25rem 0rem !important;
+}
+
+.image-boxe-two {
+  padding: 0.9rem;
+  border-radius: 0.6rem;
+}
+
+.image-boxe-two p {
+  color: #666;
+  font-size: 1rem;
+  line-height: 1.6875rem;
+  padding-top: 0.6rem;
+  padding-right: 2.9rem;
+}
+
+.certified-heading {
+  font-size: 2.625rem;
+  font-weight: 700;
+  color: #2d2d2d;
+  text-align: left;
+  padding-bottom: 1.25rem;
+}
+
+/* ********************antibio****************************** */
+.antibio-section {
+  display: flex;
+  justify-content: center;
+  margin: 3.5rem auto;
+  height: 15.625rem;
+  background-image: url("Rectangle 17.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 1.25rem;
+  width: 62%;
+  padding: 3.125rem;
+  color: white;
+  text-align: center;
+}
+
+.anti-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.875rem auto;
+}
+
+.affinity-heading {
+  font-size: 2.1875rem;
+  padding-bottom: 0.625rem;
+}
+
+/*** ***************************************Blog***********************************/
+
+.blog-section {
+  width: 75%;
+  margin: 9.375rem auto;
+}
+
+.blog-heading {
+  font-size: 1.5rem;
+  line-height: 2.0625rem;
+  padding-right: 5rem;
+}
+
+.blog-text {
+  font-size: 1rem;
+  padding: 1.25rem 0rem;
+}
+
+.blog-btn {
+  padding: 0.75rem 2.1875rem;
+}
+
+.image-boxe-two {
+  text-align: left;
+}
+
+/***************************************************Footer section***************************/
+
+.footer-section {
+  background-color: #d9d9d93d;
+  padding: 6.25rem 0rem;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 1.5fr 0.8fr 0.8fr 0.8fr;
+  align-items: flex-start;
+  width: 75%;
+  margin: 0rem auto;
+}
+
+.footer-logo {
+  padding-bottom: 1.875rem;
+}
+
+.footer-socialicon {
+  color: #002768;
+  padding: 0.6rem;
+  font-size: 2.18rem;
+  border-radius: 50%;
+  margin-top: 1.875rem;
+  cursor: pointer;
+  background-color: #dadfe9;
+}
+
+.footer-icons,
+ul {
+  display: flex !important;
+  gap: 1.25rem;
+}
+
+.footer-nav ul,
+li,
+a {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  color: #666;
+}
+
+.footer-heading-one {
+  padding: 2.5rem 0rem;
+}
+
+.footer-text {
+  font-size: 1.25rem;
+  line-height: 1.68rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.footer-form {
+  display: flex;
+  box-shadow: 0rem 0.312rem 0.625rem #0000002f;
+  background-color: #dadfe9;
+  border-radius: 0.625rem;
+  margin-top: 0.125rem;
+}
+
+input {
+  background-color: transparent;
+  font-size: 1rem;
+  color: #666666;
+  padding-left: 0.6rem;
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+.footer-form button {
+  background-color: #002768 !important;
+  padding: 0.75rem 1.5rem;
+  margin: 0.625rem 0.312rem;
+}
+/*************************************************** small Footer section***************************/
+
+.footer-small-section {
+  background-color: #002768;
+  padding: 1rem;
+  margin: 0rem auto;
+}
+
+.small-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 75%;
+  margin: 0rem auto;
+}
+
+.small-footer p {
+  color: white !important;
+}
+/******************************************End********************************/
